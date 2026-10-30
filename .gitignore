@@ -1,0 +1,29 @@
+# 构建产物
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile
+Makefile.Debug
+Makefile.Release
+
+# Qt Creator 临时文件
+*.user
+*.user.*
+*.autosave
+*.pro.user
+
+# 调试 / 临时图片
+_dlg*.png
+*.tmp
+*.log
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
